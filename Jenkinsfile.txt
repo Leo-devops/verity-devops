@@ -74,7 +74,8 @@ pipeline {
         }
 		//Code ends for stage War Deployed on Tomcat Server
 		
-		
+	
+	sleep(300000)
 		
 		//Code starts for stage System Test
 		stage('System Test') {

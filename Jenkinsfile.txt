@@ -38,7 +38,7 @@ pipeline {
 		//Code starts for stage Unit Test
         stage('Unit Test') {
             steps {
-	        println "Hello from Test" 
+	        println "Hello from Leo" 
                // sh 'mvn test'
             }	
             //post {

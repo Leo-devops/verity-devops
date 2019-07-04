@@ -34,6 +34,7 @@ pipeline {
         }
 		//Code Ends for stage Compile
 		
+				
 		//Code starts for stage Unit Test
         stage('Unit Test') {
             steps {
@@ -47,8 +48,7 @@ pipeline {
         }
 		//Code ends for stage Unit Test
 		
-				
-				
+		
 		
 		//Code starts for stage JaCoCo
 		stage('JaCoCo') {
@@ -86,6 +86,7 @@ pipeline {
             }
         }
 		//Code ends for stage War Deployed on Tomcat Server
+		
 		
 		
 		//Code starts for stage System Test

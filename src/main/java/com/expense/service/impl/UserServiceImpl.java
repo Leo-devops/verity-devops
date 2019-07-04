@@ -62,8 +62,8 @@ public class UserServiceImpl implements UserService {
 	 * it converts password from a literal text to bCrypt encoded text
 	 */
 
-	@Override
-	public User saveUser(User user) {
+	//@Override
+	//public User saveUser(User user) {
 		// Uncomment below 2 lines to make test fail (UserServiceTest.saveUserTest())
 		//	user.setUsername("Uth");
 		//	return user;
@@ -72,7 +72,7 @@ public class UserServiceImpl implements UserService {
 		// user.setPassword(passwordEncoder.encode(user.getPassword()));
 		// return userRepository.save(user);
 
-	}
+	//}
 
 	/*
 	 * get current logged in user
